@@ -1,0 +1,63 @@
+/* Write your CSS code here */
+
+/* Write your CSS code here */
+.head-container {
+  font-family: 'Roboto';
+}
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+.nav-links {
+  display: flex;
+  padding-left: 0px;
+}
+.nav-link {
+  list-style: none;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.log-btn {
+  background-color: blue;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container-md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links-md {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    background-color: lightblue;
+  }
+  .logo-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .nav-img {
+    width: 40px;
+    height: 40px;
+  }
+  .nav-container {
+    display: none;
+  }
+}
